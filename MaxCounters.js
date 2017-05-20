@@ -7,9 +7,7 @@ function solution(N, A) {
     var max=0;
     var result=new Array();
     result.length=N;
-    for(var i=0;i<N;i++){
-        result[i]=0;
-        }
+    result.fill(0);
     
     for(var i=0;i<A.length;i++){
         if(A[i]>N){
